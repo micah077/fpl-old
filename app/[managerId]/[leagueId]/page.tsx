@@ -74,7 +74,7 @@ const Page = async ({
               <SquareAd imgUrl="/ad3.png" />
               <div className="flex flex-col lg:flex-row gap-4">
                 <BenchAndAutoSub leagueId={params.leagueId} />
-                <Chips leagueId={params.leagueId} />
+                {/* <Chips leagueId={params.leagueId} /> */}
               </div>
             </div>
             <div className="w-full lg:w-[12%] flex-shrink-0 hidden lg:block">
