@@ -68,7 +68,7 @@ const Page = async ({
               </div>
               <SquareAd imgUrl="/ad2.png" />
               <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-                {/* <LiveEvents leagueId={params.leagueId} /> */}
+                <LiveEvents leagueId={params.leagueId} />
                 <TeamValue leagueId={params.leagueId} />
               </div>
               <SquareAd imgUrl="/ad3.png" />
